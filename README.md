@@ -5,7 +5,7 @@ have a pretty print!
 
 ```gdb
 # cossacks.h is exported from the Data Type Manager from Ghidra.
-python ghidra_to_gdb.py --gcc_args=-m32 --cossacks.h
+python ghidra_to_gdb.py --gcc_args=-m32 cossacks.h
 
 gdb my_software
 (gdb) add-symbol-file ./symbols.o
